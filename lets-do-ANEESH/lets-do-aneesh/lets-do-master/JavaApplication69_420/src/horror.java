@@ -189,26 +189,26 @@ public class horror extends javax.swing.JFrame {
     private void jRadioButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton4ActionPerformed
         // TODO add your handling code here:
               String movie="";
-    if(jRadioButton1.isSelected()==true)
-        movie="Wall E";
-    else if(jRadioButton2.isSelected()==true)
-        movie="The Angry Birds movie";
+    if(jRadioButton7.isSelected()==true)
+        movie="Insidious Chapter 1";
+    else if(jRadioButton8.isSelected()==true)
+        movie="Insidious Chapter 2";
+    else if(jRadioButton9.isSelected()==true)
+        movie="Insidious Chapter 3";
+    else if(jRadioButton10.isSelected()==true)
+        movie="Insidious The Last Key";
+    else if(jRadioButton11.isSelected()==true)
+        movie="The Conjuring";
+        else if(jRadioButton12.isSelected()==true)
+        movie="The Conjuring 2";
     else if(jRadioButton3.isSelected()==true)
-        movie="Cars 1";
+        movie="IT";
     else if(jRadioButton4.isSelected()==true)
-        movie="Cars 2";
-    else if(jRadioButton5.isSelected()==true)
-        movie="Cars 3";
-        else if(jRadioButton5.isSelected()==true)
-        movie="Hotel Transylvania 1";
-    else if(jRadioButton5.isSelected()==true)
-        movie="Hotel Transylvania 2";
-    else if(jRadioButton5.isSelected()==true)
-        movie="Despicable Me 1";
+        movie="Exorcist";
      else if(jRadioButton5.isSelected()==true)
-        movie="Despicable Me 2";
-     else if(jRadioButton5.isSelected()==true)
-        movie="Despicable Me 3";
+        movie="Split";
+     else if(jRadioButton6.isSelected()==true)
+        movie="The Shinning";
     
     
      

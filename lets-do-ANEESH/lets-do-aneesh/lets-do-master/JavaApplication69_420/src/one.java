@@ -120,8 +120,7 @@ public class one extends javax.swing.JFrame {
 
     j2 j= new j2();
 j.setVisible(true);
-one s= new one();
-s.setVisible(false);
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     public static void main(String args[]) {

@@ -8,12 +8,12 @@
  *
  * @author CLAB_37
  */
-public class eight extends javax.swing.JFrame {
+public class Scifi extends javax.swing.JFrame {
 
     /**
      * Creates new form eight
      */
-    public eight() {
+    public Scifi() {
         initComponents();
     }
 
@@ -48,6 +48,11 @@ public class eight extends javax.swing.JFrame {
 
         jButton1.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
         jButton1.setText("Choose Your Favourite!");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         buttonGroup1.add(jRadioButton1);
         jRadioButton1.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
@@ -193,6 +198,34 @@ public class eight extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton11ActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+String movie="";
+    if(jRadioButton1.isSelected()==true)
+        movie="Avengers Infinity War";
+    else if(jRadioButton2.isSelected()==true)
+        movie="The Matrix";
+    else if(jRadioButton5.isSelected()==true)
+        movie="The Matrix Reloaded";
+    else if(jRadioButton6.isSelected()==true)
+        movie="The Matrix Revolutions";
+    else if(jRadioButton8.isSelected()==true)
+        movie="Men in Black 1";
+        else if(jRadioButton9.isSelected()==true)
+        movie="Men in Black 2";
+    else if(jRadioButton10.isSelected()==true)
+        movie="Men in Black 3";
+    else if(jRadioButton3.isSelected()==true)
+        movie="Inception";
+     else if(jRadioButton4.isSelected()==true)
+        movie="Interstellar";
+     else if(jRadioButton11.isSelected()==true)
+        movie="Ready Player One";
+    
+    
+     
+      new TIMINGS (movie).setVisible(true);         // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -210,20 +243,21 @@ public class eight extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(eight.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Scifi.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(eight.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Scifi.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(eight.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Scifi.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(eight.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Scifi.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new eight().setVisible(true);
+                new Scifi().setVisible(true);
             }
         });
     }
