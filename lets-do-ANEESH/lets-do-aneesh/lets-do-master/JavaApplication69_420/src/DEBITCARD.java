@@ -65,7 +65,7 @@ public class DEBITCARD extends javax.swing.JFrame {
 
         jLabel2.setText("ENTER YOUR NAME");
 
-        jLabel3.setText("ENTER YOUR SURNAME");
+        jLabel3.setText("ENTER AMOUNT");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

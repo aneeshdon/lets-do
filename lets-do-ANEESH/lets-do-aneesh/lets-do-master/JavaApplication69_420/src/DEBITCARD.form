@@ -152,7 +152,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="ENTER YOUR SURNAME"/>
+        <Property name="text" type="java.lang.String" value="ENTER AMOUNT"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="B">
