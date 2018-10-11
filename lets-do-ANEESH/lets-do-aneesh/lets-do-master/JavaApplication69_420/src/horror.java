@@ -47,44 +47,63 @@ public class horror extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setForeground(new java.awt.Color(204, 0, 0));
 
+        jRadioButton10.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton10);
-        jRadioButton10.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton10.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton10.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton10.setText("The Last Key");
 
+        jRadioButton11.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton11);
-        jRadioButton11.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton11.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton11.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton11.setText("Conjuring 1");
 
+        jRadioButton12.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton12);
-        jRadioButton12.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton12.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton12.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton12.setText("Conjuring 2");
 
-        jLabel1.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 0, 0));
         jLabel1.setText("The Insidious Series");
 
-        jLabel2.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(204, 0, 0));
         jLabel2.setText("The Cojuring Series");
 
+        jRadioButton7.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton7);
-        jRadioButton7.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton7.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton7.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton7.setText("Chapter 1");
 
+        jRadioButton8.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton8);
-        jRadioButton8.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton8.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton8.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton8.setText("Chapter 2");
 
+        jRadioButton9.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton9);
-        jRadioButton9.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton9.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton9.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton9.setText("Chapter 3");
 
+        jRadioButton3.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton3);
-        jRadioButton3.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton3.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton3.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton3.setText("IT");
 
+        jRadioButton4.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton4);
-        jRadioButton4.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton4.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton4.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton4.setText("Exorcist");
         jRadioButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -92,12 +111,16 @@ public class horror extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton5.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton5);
-        jRadioButton5.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton5.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton5.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton5.setText("Split");
 
+        jRadioButton6.setBackground(new java.awt.Color(0, 0, 0));
         buttonGroup1.add(jRadioButton6);
-        jRadioButton6.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jRadioButton6.setFont(new java.awt.Font("Chiller", 1, 48)); // NOI18N
+        jRadioButton6.setForeground(new java.awt.Color(204, 0, 0));
         jRadioButton6.setText("The Shinning");
 
         jButton1.setFont(new java.awt.Font("Forte", 1, 24)); // NOI18N
@@ -137,14 +160,14 @@ public class horror extends javax.swing.JFrame {
                             .addComponent(jRadioButton4)
                             .addComponent(jRadioButton5)
                             .addComponent(jRadioButton6))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 139, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 378, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(140, 140, 140))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(11, Short.MAX_VALUE)
+                .addContainerGap(22, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jRadioButton7)
                     .addComponent(jRadioButton8)
@@ -176,11 +199,14 @@ public class horror extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
